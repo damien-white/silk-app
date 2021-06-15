@@ -1,0 +1,17 @@
+## IDE / Editor
+# Jetbrains
+.idea/
+# VSCode
+.vscode/
+
+## Build Output
+# Client
+client/
+# Server
+dist/
+
+## Dependencies
+node_modules/
+
+## ESLint config
+.eslintrc.yml

@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    /* Project Options */
+    "declaration": true,
+    "declarationMap": true,
+    "incremental": true,
+    "module": "CommonJS",
+    "outDir": "./dist",
+    "removeComments": true,
+    "sourceMap": true,
+    "target": "ES2017",
+
+    /* Strict Checks */
+    "strict": true,
+    "strictPropertyInitialization": false,
+
+    /* Module Resolution */
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": "./",
+    "esModuleInterop": true,
+    "moduleResolution": "Node",
+    /* TODO: configure "paths" to allow for shorter imports */
+
+    /* Linter Checks */
+    "noFallthroughCasesInSwitch": true,
+
+    /* Experimental */
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+
+    /* Advanced Options */
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+  }
+}

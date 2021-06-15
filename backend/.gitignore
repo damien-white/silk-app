@@ -1,0 +1,57 @@
+### Silk [ Backend ] ###
+
+## Node.js
+# Dependencies
+node_modules/
+.pnp/
+.pnp.js
+
+# Testing
+coverage/
+.nyc_output/
+
+## Build Output
+dist/
+
+## Development Environment
+# Environment Variables
+.env
+.env.*
+.env.*.local
+
+# Direnv Shell Script
+.envrc
+
+## Internal-Use Only
+# Project Specifications
+.spec/
+.internal/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+## Development Workspace
+# IDEs and Code Editors
+.idea/
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+## Miscellaneous
+# MacOS
+.DS_Store

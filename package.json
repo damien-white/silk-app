@@ -1,0 +1,10 @@
+{
+  "name": "@darkfusion/silk",
+  "version": "0.0.1",
+  "description": "Free and open-source communications platform and realtime chat application.",
+  "main": "scripts/start.js",
+  "repository": "https://github.com/peter-donovan/silk-app",
+  "author": "Peter Donovan <peter@darkfusion.io>",
+  "license": "MIT",
+  "private": true
+}

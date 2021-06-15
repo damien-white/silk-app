@@ -1,0 +1,23 @@
+## IDE / Editor
+# Jetbrains
+.idea/
+# VSCode
+.vscode/
+
+## Build Output
+# Client
+client/
+# Server
+dist/
+
+## Node.js
+# Dependencies
+node_modules/
+# Test coverage
+coverage/
+
+## ESLint config
+.eslintrc.yml
+
+# Internal specification
+spec/

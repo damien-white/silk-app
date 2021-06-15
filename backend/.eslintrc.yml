@@ -1,0 +1,42 @@
+root: true
+env:
+  jest: true
+  node: true
+extends:
+  - 'eslint:recommended'
+  - 'plugin:@typescript-eslint/recommended'
+  - 'plugin:@typescript-eslint/recommended-requiring-type-checking'
+  - 'plugin:import/recommended'
+  - 'plugin:import/typescript'
+  - 'plugin:jest/recommended'
+  - 'plugin:promise/recommended'
+  - 'plugin:prettier/recommended'
+globals:
+  Atomics: readonly
+  SharedArrayBuffer: readonly
+parser: '@typescript-eslint/parser'
+parserOptions:
+  project:
+    - ./tsconfig.json
+  sourceType: 'module'
+
+plugins:
+  - '@typescript-eslint'
+  - 'import'
+  - 'jest'
+  - 'promise'
+
+rules:
+  # TypeScript
+  '@typescript-eslint/explicit-function-return-type': 'off'
+  '@typescript-eslint/explicit-module-boundary-types': 'off'
+  '@typescript-eslint/no-empty-function': 'off'
+  '@typescript-eslint/no-explicit-any': 'off'
+  '@typescript-eslint/no-unused-vars': 'warn'
+  'jest/expect-expect':
+    - 'error'
+    - assertFunctionNames:
+      - 'expect'
+      - 'request.**.expect'
+  # Prettier
+  'prettier/prettier': 'warn'
